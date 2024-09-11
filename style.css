@@ -31,6 +31,12 @@ p {
     max-width: 800px;
     margin: 0 auto 20px auto;
 }
+.hobby-icon {
+    width: 30px; 
+    height: 30px;
+    margin-right: 10px; 
+    vertical-align: middle; 
+}
 
 
 ol {
