@@ -31,11 +31,12 @@ p {
     max-width: 800px;
     margin: 0 auto 20px auto;
 }
+
 .hobby-icon {
     width: 160px; 
     height: 160px;
     margin-right: 10px; 
-    vertical-align: middle; 
+    object-fit: cover; 
 }
 
 
@@ -50,10 +51,12 @@ ol {
 
 
 li {
-  
-    align-items: center; 
+    display: flex; 
+    align-items: flex-start; 
     margin-top: 20px;
+    line-height: 1.5; 
 }
+
 
 
 img {
