@@ -51,9 +51,11 @@ ol {
 
 
 li {
-  
+    display: flex; 
+    justify-content: space-between; 
     align-items: center; 
-    margin-top: 70px;
+    margin-top: 20px;
+    line-height: 1.5;
 }
 
 
