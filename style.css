@@ -32,25 +32,6 @@ p {
     margin: 0 auto 20px auto;
 }
 
-/* .hobby-icon {
-    width: 160px; 
-    height: 160px;
-    margin-right: 10px; 
-    
-}
-
-
-
-
-
-li {
-    display: flex; 
- 
-    align-items: center; 
-    margin-top: 20px;
-    line-height: 1.5;
-} */
-
 ol {
     list-style: decimal;
     margin-left: 40px;
