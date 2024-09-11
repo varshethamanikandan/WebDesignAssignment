@@ -32,7 +32,7 @@ p {
     margin: 0 auto 20px auto;
 }
 
-.hobby-icon {
+/* .hobby-icon {
     width: 160px; 
     height: 160px;
     margin-right: 10px; 
@@ -52,10 +52,30 @@ ol {
 
 li {
     display: flex; 
-    justify-content: space-between; 
+ 
     align-items: center; 
     margin-top: 20px;
     line-height: 1.5;
+} */
+
+li {
+    display: flex; /* Flexbox container */
+    align-items: center; /* Vertically align image and text */
+    margin-top: 20px;
+}
+
+
+li span {
+    margin-left: 10px; /* Adds space between the image and text */
+    font-size: 1.2rem;
+}
+
+/* Styling for hobby images */
+.hobby-icon {
+    width: 50px;  /* Set the desired width */
+    height: 50px; /* Set the desired height */
+    object-fit: cover; /* Ensure image fits within the given size */
+    border-radius: 8px; /* Optional: rounds the corners of the image */
 }
 
 
